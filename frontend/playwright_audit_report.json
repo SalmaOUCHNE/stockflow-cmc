@@ -1,0 +1,5831 @@
+[
+  {
+    "login": "admin@cmc.ma",
+    "response": {
+      "status": 200,
+      "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImU3NDI0NTI2LTlmMTAtNDY4Yi1hOTQ5LTU5ZjFkOTQ1ZjRhMyIsImVtYWlsIjoiYWRtaW5AY21jLm1hIiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzgxNTUzMzUxLCJleHAiOjE3ODE2Mzk3NTF9.HNGuxhie91zKN_nqS-zUmx2V9y_MUtjAttT-aPJ8Hak",
+        "user": {
+          "id": "e7424526-9f10-468b-a949-59f1d945f4a3",
+          "email": "admin@cmc.ma",
+          "role": "Admin"
+        }
+      }
+    }
+  },
+  {
+    "login": "user@cmc.ma",
+    "response": {
+      "status": 200,
+      "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU1ZDNjNjczLTZiMDEtNDE0NC04YzE3LWQ3NzhmOTRlZGViYiIsImVtYWlsIjoidXNlckBjbWMubWEiLCJyb2xlIjoiVXRpbGlzYXRldXIiLCJpYXQiOjE3ODE1NTMzNTEsImV4cCI6MTc4MTYzOTc1MX0.f19axR5yWMY9cUizmqsNudmQT4Paay1X3tdjzTUS2eo",
+        "user": {
+          "id": "55d3c673-6b01-4144-8c17-d778f94edebb",
+          "email": "user@cmc.ma",
+          "role": "Utilisateur"
+        }
+      }
+    }
+  },
+  {
+    "label": "admin",
+    "results": [
+      {
+        "path": "/dashboard",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Bonjour, Mohamed",
+          "Mouvements de stock",
+          "Activités récentes"
+        ]
+      },
+      {
+        "path": "/stock",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Liste du stock"
+        ]
+      },
+      {
+        "path": "/entries",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Enregistrer une entrée de stock",
+          "Détails de l'entrée",
+          "Intégrité de l'inventaire"
+        ]
+      },
+      {
+        "path": "/exits",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Nouvelle sortie de stock",
+          "Détails de la sortie"
+        ]
+      },
+      {
+        "path": "/bons",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Bons de sortie"
+        ]
+      },
+      {
+        "path": "/inventory",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Inventaire périodique"
+        ]
+      },
+      {
+        "path": "/audit",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Journal d'audit",
+          "0 événement"
+        ]
+      },
+      {
+        "path": "/expirations",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Suivi des expirations"
+        ]
+      },
+      {
+        "path": "/reports",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Rapports & Suivi",
+          "Évolution des mouvements",
+          "Stock par filière",
+          "Derniers mouvements"
+        ]
+      },
+      {
+        "path": "/users",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Gestion des utilisateurs",
+          "Historique d'audit"
+        ]
+      }
+    ],
+    "errors": [
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "[AUDIT] Failed to load audit logs AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 0)\n    at async http://127.0.0.1:4173/assets/AuditLog-Cfcxwdd6.js:1:1640",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500"
+    ],
+    "warnings": [
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "Failed to load reports data AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 5)\n    at async http://127.0.0.1:4173/assets/Reports-C7ha4UYj.js:1:1125",
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "[USERS] failed to load recent audit AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 0)\n    at async http://127.0.0.1:4173/assets/Users-lO-XgX3m.js:7:12425"
+    ],
+    "logs": [
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /categories - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /categories - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "error",
+        "text": "[AUDIT] Failed to load audit logs AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 0)\n    at async http://127.0.0.1:4173/assets/AuditLog-Cfcxwdd6.js:1:1640"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "Failed to load reports data AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 5)\n    at async http://127.0.0.1:4173/assets/Reports-C7ha4UYj.js:1:1125"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "[USERS] failed to load recent audit AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 0)\n    at async http://127.0.0.1:4173/assets/Users-lO-XgX3m.js:7:12425"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      }
+    ]
+  },
+  {
+    "label": "admin-item-detail",
+    "results": [
+      {
+        "path": "/stock/73839339-e4df-440f-9b58-05e00bb9395b",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Modifier l'article",
+          "Détails de l'article",
+          "Informations générales",
+          "Niveaux de stock",
+          "Achat & expiration",
+          "Chronologie de traçabilité"
+        ]
+      }
+    ],
+    "errors": [
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "[AXIOS] ✗ GET /audit - status: 500"
+    ],
+    "warnings": [
+      "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\".",
+      "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\".",
+      "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\"."
+    ],
+    "logs": [
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 500"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 500\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: e7424526-9f10-468b-a949-59f1d945f4a3, email: admin@cmc.ma, role: Admin}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: admin@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /categories - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /categories - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "warning",
+        "text": "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\"."
+      },
+      {
+        "type": "warning",
+        "text": "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\"."
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "warning",
+        "text": "The specified value \"2026-05-09T23:00:00.000Z\" does not conform to the required format, \"yyyy-MM-dd\"."
+      }
+    ]
+  },
+  {
+    "label": "user",
+    "results": [
+      {
+        "path": "/portal/dashboard",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Bonjour, CMC 👋",
+          "Mes dernières demandes",
+          "Notifications",
+          "Besoin de matériel ?"
+        ]
+      },
+      {
+        "path": "/portal/catalogue",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Catalogue des articles"
+        ]
+      },
+      {
+        "path": "/portal/nouvelle-demande",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Nouvelle Demande"
+        ]
+      },
+      {
+        "path": "/portal/mes-demandes",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": []
+      },
+      {
+        "path": "/portal/historique",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Archives des Attributions",
+          "Registre Détaillé"
+        ]
+      },
+      {
+        "path": "/portal/notifications",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Notifications"
+        ]
+      },
+      {
+        "path": "/portal/profil",
+        "status": 200,
+        "title": "StockFlow CMC — Gestion de stock CMC Casablanca-Settat",
+        "headings": [
+          "Mon profil",
+          "Informations personnelles",
+          "Préférences",
+          "Langue et région"
+        ]
+      }
+    ],
+    "errors": [
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "ReferenceError: Eye is not defined\n    at http://127.0.0.1:4173/assets/PortalMesDemandes-D6y3uvuk.js:1:5066\n    at Array.map (<anonymous>)\n    at S (http://127.0.0.1:4173/assets/PortalMesDemandes-D6y3uvuk.js:1:3942)\n    at Ho (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:6:16847)\n    at Xs (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:3127)\n    at Ul (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:44263)\n    at Nl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39306)\n    at jl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39237)\n    at Al (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39097)\n    at vl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:35533)",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /users - status: 403",
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "[AXIOS] ✗ GET /audit - status: 403"
+    ],
+    "warnings": [
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)",
+      "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+    ],
+    "logs": [
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "ReferenceError: Eye is not defined\n    at http://127.0.0.1:4173/assets/PortalMesDemandes-D6y3uvuk.js:1:5066\n    at Array.map (<anonymous>)\n    at S (http://127.0.0.1:4173/assets/PortalMesDemandes-D6y3uvuk.js:1:3942)\n    at Ho (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:6:16847)\n    at Xs (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:3127)\n    at Ul (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:44263)\n    at Nl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39306)\n    at jl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39237)\n    at Al (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:39097)\n    at vl (http://127.0.0.1:4173/assets/react-dom-BSuNpj2v.js:8:35533)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/products - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /poles - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /filieres - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /stock/recent-movements - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /notifications - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /bons - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /audit - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /inventory - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: true, userExists: false, userEmail: undefined, tokenExists: true, roles: Array(0)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] Still loading, showing spinner"
+      },
+      {
+        "type": "log",
+        "text": "[USEAUTH] Initial mount, calling hydrate"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Starting hydration..."
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token from storage: eyJhbGciOiJIUzI1NiIs..."
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Token found, validating with GET /users/me"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] GET /users/me - token present: true"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] Authorization header added"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/products - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /poles - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /filieres - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /users - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "listUsersWithRoles failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async oi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:10240)\n    at async Promise.all (index 5)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /stock/recent-movements - status: 200"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+      },
+      {
+        "type": "error",
+        "text": "[AXIOS] ✗ GET /audit - status: 403"
+      },
+      {
+        "type": "warning",
+        "text": "getAuditLogs failed AxiosError: Request failed with status code 403\n    at Un (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:9844)\n    at XMLHttpRequest.g (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:3:15103)\n    at Pr.request (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:5:2124)\n    at async xi (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:11928)\n    at async Promise.all (index 7)\n    at async Object.refresh (http://127.0.0.1:4173/assets/dist-BwMTDfdN.js:9:14389)"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /notifications - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /bons - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /users/me - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] ✓ /users/me succeeded: {userId: 55d3c673-6b01-4144-8c17-d778f94edebb, email: user@cmc.ma, role: Utilisateur}"
+      },
+      {
+        "type": "log",
+        "text": "[HYDRATE] Hydration complete, loading = false"
+      },
+      {
+        "type": "log",
+        "text": "[AXIOS] ✓ GET /inventory - status: 200"
+      },
+      {
+        "type": "log",
+        "text": "[DB] refresh completed successfully"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      },
+      {
+        "type": "log",
+        "text": "[AUTH] token found: true (from token key)"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] {loading: false, userExists: true, userEmail: user@cmc.ma, tokenExists: true, roles: Array(1)}"
+      },
+      {
+        "type": "log",
+        "text": "[PROTECTED_ROUTE] ✓ Access granted"
+      }
+    ]
+  }
+]

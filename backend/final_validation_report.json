@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-15T18:32:54.590+01:00",
+  "summary": {
+    "products": 10,
+    "stock_movements": 71,
+    "audit_logs": 152,
+    "inventories": 11,
+    "inventory_lines": 100,
+    "bons_sortie": 5,
+    "users": 20
+  },
+  "pages_validated": [
+    "Stock (list)",
+    "Détail produit",
+    "Entrées",
+    "Sorties",
+    "Bons de sortie",
+    "Inventaire",
+    "Expirations",
+    "Rapports",
+    "Journal d'audit",
+    "Utilisateurs"
+  ],
+  "fixes_applied": [
+    "Aligned products.stock_actuel with stock_movements (backend/fix_stock_from_movements.mjs)",
+    "Seeded bons_sortie sample records (backend/seed_bons_sortie.mjs)",
+    "Improved PDF export: inline images, A4 margins, filename with date, pagebreak handling (frontend/src/pages/Exits.tsx)",
+    "Upload tests executed and uploads saved to backend/public/uploads (backend/upload_test_results.json)",
+    "Frontend rebuilt (final build)"
+  ],
+  "remaining_issues": [
+    "Visual validation in browser required for exact PDF render (images from remote CDNs may be blocked by CORS)",
+    "Large JS chunk warnings in Vite build (consider code-splitting)"
+  ],
+  "notes": "No new demo products added; only the canonical 10 are present. Next step: manual browser QA (navigate dist/, test PDF export, check QR printing and images)."
+}

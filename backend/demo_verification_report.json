@@ -1,0 +1,258 @@
+{
+  "timestamp": "2026-06-15T17:23:10.728Z",
+  "checks": {
+    "sku_products": 0,
+    "total_products": 10,
+    "product_columns_present": [
+      "date_entree",
+      "category_id",
+      "stock_actuel",
+      "seuil_alerte",
+      "prix_unitaire",
+      "fournisseur",
+      "code_article",
+      "photo_url",
+      "reference",
+      "libelle",
+      "description",
+      "emplacement",
+      "unite_mesure"
+    ],
+    "product_columns_missing": [],
+    "products_with_category_link": 10,
+    "poles_count": 9,
+    "filieres_count": 44,
+    "poles_sample": [
+      {
+        "id": "ee456a7f-705e-4c7e-b7d9-7fcfa4cb13ed",
+        "nom": "Agriculture"
+      },
+      {
+        "id": "b0007ab4-9558-4855-8b81-2a36b10a2a6a",
+        "nom": "Agro-industrie"
+      },
+      {
+        "id": "10043edc-64e7-44b9-bf99-29ca2e434889",
+        "nom": "Artisanat"
+      },
+      {
+        "id": "c40cfa05-5f19-4750-b09e-4254a9ffe8b9",
+        "nom": "Arts & Industrie Graphique"
+      },
+      {
+        "id": "d3973989-6137-49d7-bf86-d1dc0fb2d24d",
+        "nom": "Digital & Intelligence Artificielle"
+      },
+      {
+        "id": "71fb14ba-42e3-4c24-b143-a33110fafee2",
+        "nom": "Gestion & Commerce"
+      },
+      {
+        "id": "84e3fece-eae8-4bad-85cf-0a87e1872890",
+        "nom": "Industrie"
+      },
+      {
+        "id": "5389a92f-b4af-46aa-bc34-df37c8fe533a",
+        "nom": "Services à la Personne et à la Communauté"
+      },
+      {
+        "id": "21ceca5c-e61d-448c-b8b3-c668e44c497c",
+        "nom": "Tourisme – Hôtellerie – Restauration"
+      }
+    ],
+    "filieres_sample": [
+      {
+        "id": "850529f4-9de0-4e8e-b685-0eb1883789cc",
+        "libelle": "Agent de Restauration",
+        "pole_id": "21ceca5c-e61d-448c-b8b3-c668e44c497c"
+      },
+      {
+        "id": "afc888d9-f487-414b-a6f4-d8fc1c37f3bc",
+        "libelle": "Agriculture de Précision",
+        "pole_id": "ee456a7f-705e-4c7e-b7d9-7fcfa4cb13ed"
+      },
+      {
+        "id": "2ad97718-d7d0-438e-b0ed-662a724753af",
+        "libelle": "Animation Socio-éducative",
+        "pole_id": "5389a92f-b4af-46aa-bc34-df37c8fe533a"
+      },
+      {
+        "id": "3b511d51-bb87-4f08-80bc-5bed2dcc2a9c",
+        "libelle": "Assistance Sociale",
+        "pole_id": "5389a92f-b4af-46aa-bc34-df37c8fe533a"
+      },
+      {
+        "id": "6efcb9b7-2881-4399-908c-23e306e57c07",
+        "libelle": "Automatisation Industrielle",
+        "pole_id": "84e3fece-eae8-4bad-85cf-0a87e1872890"
+      },
+      {
+        "id": "7d71b545-2711-4ee8-a11e-0ad31ab6ad1d",
+        "libelle": "Commerce Digital",
+        "pole_id": "71fb14ba-42e3-4c24-b143-a33110fafee2"
+      },
+      {
+        "id": "e7fb76d0-ac73-4162-ae5f-6d7329338e51",
+        "libelle": "Communication Visuelle",
+        "pole_id": "c40cfa05-5f19-4750-b09e-4254a9ffe8b9"
+      },
+      {
+        "id": "e3ddaec2-4cd8-4a25-8989-c2c2ab88dd8c",
+        "libelle": "Comptabilité et Finance",
+        "pole_id": "71fb14ba-42e3-4c24-b143-a33110fafee2"
+      },
+      {
+        "id": "4ccb71ee-d78e-4909-bed6-33fce9513057",
+        "libelle": "Contrôle Qualité Agroalimentaire",
+        "pole_id": "b0007ab4-9558-4855-8b81-2a36b10a2a6a"
+      },
+      {
+        "id": "ba114b6d-c3af-4ce9-85b8-6f28de9706d1",
+        "libelle": "Création Textile et Habillement",
+        "pole_id": "10043edc-64e7-44b9-bf99-29ca2e434889"
+      }
+    ],
+    "movements_by_type": [
+      {
+        "type": "entree",
+        "count": 54
+      },
+      {
+        "type": "sortie",
+        "count": 17
+      }
+    ],
+    "bons_by_statut": [
+      {
+        "statut": "emis",
+        "count": 1
+      },
+      {
+        "statut": "rejetee",
+        "count": 1
+      },
+      {
+        "statut": "validee",
+        "count": 1
+      },
+      {
+        "statut": "brouillon",
+        "count": 1
+      },
+      {
+        "statut": "livree",
+        "count": 1
+      }
+    ],
+    "inventories_count": 11,
+    "inventory_lines_count": 100,
+    "users_status": [
+      {
+        "status": "active",
+        "count": 16
+      },
+      {
+        "status": "rejected",
+        "count": 1
+      },
+      {
+        "status": "pending",
+        "count": 3
+      }
+    ],
+    "pending_users_sample": [
+      {
+        "id": "7cba451f-516c-4c29-8aaf-49c203b16ecf",
+        "email": "user5@example.local",
+        "date_demande": "2026-05-21T00:12:44.205Z",
+        "status": "pending",
+        "is_active": false
+      },
+      {
+        "id": "111a1e8d-ec76-41df-813d-c77de7762e59",
+        "email": "user4@example.local",
+        "date_demande": "2026-05-26T00:12:44.205Z",
+        "status": "pending",
+        "is_active": false
+      },
+      {
+        "id": "ceb6713a-9870-4bc7-9233-ea2e54b7f905",
+        "email": "ouchne@gmail.com",
+        "date_demande": null,
+        "status": "pending",
+        "is_active": true
+      }
+    ],
+    "stock_inconsistencies": [],
+    "products_with_photos": 10,
+    "photo_sample": [
+      {
+        "reference": "CABLE-CAT6-5M",
+        "libelle": "Câble Réseau Cat6 5m",
+        "photo_url": "/uploads/test-CABLE-CAT6-5M.png"
+      },
+      {
+        "reference": "CART-CANON-PG545",
+        "libelle": "Cartouche Canon PG-545",
+        "photo_url": "/uploads/test-CART-CANON-PG545.png"
+      },
+      {
+        "reference": "PELTOR-X4",
+        "libelle": "Casque de protection Peltor X4",
+        "photo_url": "/uploads/test-PELTOR-X4.png"
+      },
+      {
+        "reference": "DELL-LAT-5420",
+        "libelle": "Dell Latitude 5420",
+        "photo_url": "/uploads/test-DELL-LAT-5420.png"
+      },
+      {
+        "reference": "GANTS-NITRILE-100",
+        "libelle": "Gants nitrile boîte 100",
+        "photo_url": "/uploads/test-GANTS-NITRILE-100.png"
+      },
+      {
+        "reference": "HP-LJ-PRO-M404dn",
+        "libelle": "HP LaserJet Pro M404dn",
+        "photo_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06619618.png"
+      },
+      {
+        "reference": "KIT-MAINT-TOOLS",
+        "libelle": "Kit Maintenance Multi-tools",
+        "photo_url": "https://cdn.toolmaster.com/images/kit-maintenance.jpg"
+      },
+      {
+        "reference": "MACBOOK-PRO-M3-14",
+        "libelle": "MacBook Pro M3 14\"",
+        "photo_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310"
+      },
+      {
+        "reference": "PAPIER-A4-80G",
+        "libelle": "Papier A4 Premium 80g (rame)",
+        "photo_url": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f"
+      },
+      {
+        "reference": "WERA-7P",
+        "libelle": "Tournevis Wera Kraftform 7p",
+        "photo_url": "https://www.wera.de/media/wera_kraftform_7p.jpg"
+      }
+    ],
+    "notifications_count": 15,
+    "api": {
+      "serverUp": true,
+      "poles": {
+        "status": 200
+      }
+    }
+  },
+  "errors": [],
+  "summary": {
+    "products_ok": false,
+    "categories_linked": true,
+    "poles_filieres_present": true,
+    "movements_exist": true,
+    "bons_exist": true,
+    "inventories_exist": true,
+    "users_pending_exist": true
+  }
+}

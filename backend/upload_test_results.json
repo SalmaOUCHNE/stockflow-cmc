@@ -1,0 +1,32 @@
+﻿[
+    {
+        "reference":  "CABLE-CAT6-5M",
+        "status":  "ok",
+        "id":  "73839339-e4df-440f-9b58-05e00bb9395b",
+        "photo_url":  "/uploads/test-CABLE-CAT6-5M.png"
+    },
+    {
+        "reference":  "CART-CANON-PG545",
+        "status":  "ok",
+        "id":  "92c628d9-0d78-47f7-ad18-214ea1d7f6c8",
+        "photo_url":  "/uploads/test-CART-CANON-PG545.png"
+    },
+    {
+        "reference":  "PELTOR-X4",
+        "status":  "ok",
+        "id":  "f5620288-5eb5-45ee-bff2-7ee6cec9a8d8",
+        "photo_url":  "/uploads/test-PELTOR-X4.png"
+    },
+    {
+        "reference":  "DELL-LAT-5420",
+        "status":  "ok",
+        "id":  "35f968e9-a458-4bb9-9335-15cf2127b6e2",
+        "photo_url":  "/uploads/test-DELL-LAT-5420.png"
+    },
+    {
+        "reference":  "GANTS-NITRILE-100",
+        "status":  "ok",
+        "id":  "75e3a72f-c9e5-40a0-9773-5c06ccc8829a",
+        "photo_url":  "/uploads/test-GANTS-NITRILE-100.png"
+    }
+]
