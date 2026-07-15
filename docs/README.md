@@ -2,7 +2,7 @@
 
 StockFlow CMC is a web application for managing stock, requests and delivery slips (Bons de Sortie) for CMC Casablanca-Settat. It includes an admin panel and a user portal. The stack is an Express.js backend (PostgreSQL) and a React frontend (Vite). The project features a full request approval workflow, notifications, PDF Bon de Sortie generation (pdfmake), image uploads, and audit logging.
 
-Repository: https://github.com/Salma-OUCHNE/stockflow-cmc.git
+Repository: https://github.com/SalmaOUCHNE/stockflow-cmc.git
 
 ---
 
